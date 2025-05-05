@@ -1,0 +1,137 @@
+﻿  BSEEDORDER.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\throttling.h(81,27): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\throttling.h(137,11): warning C4244: 'return': conversion from 'const __int64' to 'double', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4259,17): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4261,18): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Fix_StringParser.h(23,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\OMS_Acceptor.h(135,44): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\OMS_Acceptor.h(146,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\OMS_Acceptor.h(254,44): warning C4101: 'e': unreferenced local variable
+  CustodianReader.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+  ExchangeConnection.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4259,17): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4261,18): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Exchange\ExchangeConnection.cpp(38,17): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Exchange\ExchangeConnection.cpp(48,45): warning C4244: 'argument': conversion from 'long' to 'u_short', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Exchange\ExchangeConnection.cpp(102,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Exchange\ExchangeConnection.cpp(342,74): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  RequestProcess.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4259,17): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4261,18): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+  LogProcess.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4259,17): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4261,18): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+  Nanolog.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\NanoLog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\NanoLog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\NanoLog.hpp(29,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+  RabbitConsumer.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+  rabbitmqInitializer.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+  RabbitProducer.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+  ReadConfigurationFile.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\CommonFile\ReadConfigurationFile.cpp(6,1): warning C4005: 'MAX_PATH': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(60,1): message : see previous definition of 'MAX_PATH'
+  RequestProcessor.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4259,17): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4261,18): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Fix_StringParser.h(23,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\Request\RequestProcessor.cpp(56,25): warning C4101: 'ex': unreferenced local variable
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\Request\RequestProcessor.cpp(135,25): warning C4101: 'ex': unreferenced local variable
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\Request\RequestProcessor.cpp(219,25): warning C4101: 'ex': unreferenced local variable
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\Request\RequestProcessor.cpp(247,25): warning C4101: 'ex': unreferenced local variable
+  ResponseProcessor.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4259,17): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4261,18): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+  TradeApplication.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\throttling.h(81,27): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\throttling.h(137,11): warning C4244: 'return': conversion from 'const __int64' to 'double', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4259,17): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4261,18): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Fix_StringParser.h(23,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\OMS_Acceptor.h(135,44): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\OMS_Acceptor.h(146,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\OMS_Acceptor.h(254,44): warning C4101: 'e': unreferenced local variable
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\TradeApplication.cpp(142,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\TradeApplication.cpp(159,36): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\TradeApplication.cpp(171,36): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\TradeApplication.cpp(274,65): warning C4244: 'argument': conversion from 'int64_t' to 'double', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\TradeApplication.cpp(445,28): error C2872: 'chrono': ambiguous symbol
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_chrono.hpp(785,11): message : could be 'std::chrono'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\packages\boost.1.85.0\lib\native\include\boost\asio\detail\chrono.hpp(23,11): message : or       'boost::asio::chrono'
+  UdpRecevier.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\UDP\UdpRecevier.cpp(18,25): warning C4101: 'e': unreferenced local variable
+  UdpSender.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\UDP\UdpSender.cpp(62,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Utility.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Utility.cpp(106,14): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Utility.cpp(129,18): warning C4244: 'return': conversion from 'SOCKET' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Utility.cpp(151,16): warning C4244: 'return': conversion from 'SOCKET' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Utility.cpp(160,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Utility.cpp(286,12): warning C4309: '=': truncation of constant value
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Utility.cpp(428,23): warning C4312: 'type cast': conversion from 'FINSOL::thread_id' to 'void *' of greater size
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Utility.cpp(429,15): warning C4312: 'type cast': conversion from 'FINSOL::thread_id' to 'HANDLE' of greater size
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Utility.cpp(438,15): warning C4312: 'type cast': conversion from 'FINSOL::thread_id' to 'HANDLE' of greater size
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Utility.cpp(448,10): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'unsigned int'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Utility.cpp(448,10): warning C4302: 'type cast': truncation from 'HANDLE' to 'unsigned int'
+  Generating Code...

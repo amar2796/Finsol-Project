@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{a24bbc0a-5555-46b4-a3e4-dc0d9a162ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETI">
+      <UniqueIdentifier>{f24a707a-295e-4a97-ac07-f752799e81b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OMS_Channels">
+      <UniqueIdentifier>{ebdf7277-5285-4eda-bcf5-ceba9dc42fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OMS_Channels\RabbitMq">
+      <UniqueIdentifier>{c9d3d3a6-775a-4005-b173-d2342499c579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OMS_Channels\UDP">
+      <UniqueIdentifier>{c0710d40-0aa3-41a3-91de-374a2886488a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MCX_ETI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExchangeConnection.cpp">
+      <Filter>ETI</Filter>
+    </ClCompile>
+    <ClCompile Include="ETI_Adapter.cpp">
+      <Filter>ETI</Filter>
+    </ClCompile>
+    <ClCompile Include="Exchange_Processor.cpp">
+      <Filter>ETI</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpRecevier.cpp">
+      <Filter>OMS_Channels\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpSender.cpp">
+      <Filter>OMS_Channels\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct_To_String.cpp">
+      <Filter>ETI</Filter>
+    </ClCompile>
+    <ClCompile Include="Password_Encryption.cpp">
+      <Filter>ETI</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqConsumer.cpp">
+      <Filter>OMS_Channels\RabbitMq</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqInitializer.cpp">
+      <Filter>OMS_Channels\RabbitMq</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqProducer.cpp">
+      <Filter>OMS_Channels\RabbitMq</Filter>
+    </ClCompile>
+    <ClCompile Include="Nanolog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExchangeConnection.h">
+      <Filter>ETI</Filter>
+    </ClInclude>
+    <ClInclude Include="ETI.h">
+      <Filter>ETI</Filter>
+    </ClInclude>
+    <ClInclude Include="configReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="path.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ETI_Adapter.h">
+      <Filter>ETI</Filter>
+    </ClInclude>
+    <ClInclude Include="Exchange_Processor.h">
+      <Filter>ETI</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="omsSocketHandler.h">
+      <Filter>OMS_Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="threadSafeQueue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpRecevier.h">
+      <Filter>OMS_Channels\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpSender.h">
+      <Filter>OMS_Channels\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="stringParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IOServiceHanlder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonReqStruct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct_To_String.h">
+      <Filter>ETI</Filter>
+    </ClInclude>
+    <ClInclude Include="throttling.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplSeq.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Password_Encryption.h">
+      <Filter>ETI</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqConsumer.h">
+      <Filter>OMS_Channels\RabbitMq</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqInitializer.h">
+      <Filter>OMS_Channels\RabbitMq</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqProducer.h">
+      <Filter>OMS_Channels\RabbitMq</Filter>
+    </ClInclude>
+    <ClInclude Include="Nanolog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

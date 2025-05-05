@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Common\logging">
+      <UniqueIdentifier>{92816761-2769-448b-b2a8-2f6d55ed7c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExchangeOMS">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ExchangeOMS\OMSComm">
+      <UniqueIdentifier>{5350e805-fd3a-42b0-9388-0c5cf0ef0832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExchangeOMS\ExchangeComm">
+      <UniqueIdentifier>{cf0c996d-87b3-4170-887a-ac045c3d54b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Nanolog.cpp">
+      <Filter>Common\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="publisher.cpp">
+      <Filter>ExchangeOMS\OMSComm</Filter>
+    </ClCompile>
+    <ClCompile Include="marketDataMessage.cpp">
+      <Filter>ExchangeOMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastReceiver.cpp">
+      <Filter>ExchangeOMS\ExchangeComm</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolProcess.cpp">
+      <Filter>ExchangeOMS</Filter>
+    </ClCompile>
+    <ClCompile Include="multicastSender.cpp">
+      <Filter>ExchangeOMS\OMSComm</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpSender.cpp">
+      <Filter>ExchangeOMS\OMSComm</Filter>
+    </ClCompile>
+    <ClCompile Include="IIBX_FUT_MARKET.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Nanolog.hpp">
+      <Filter>Common\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractDataSender.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="configReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentPath.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="publisher.h">
+      <Filter>ExchangeOMS\OMSComm</Filter>
+    </ClInclude>
+    <ClInclude Include="marketDataMessage.h">
+      <Filter>ExchangeOMS</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threadSafeQueue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastReceiver.h">
+      <Filter>ExchangeOMS\ExchangeComm</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolProcess.h">
+      <Filter>ExchangeOMS</Filter>
+    </ClInclude>
+    <ClInclude Include="multicastSender.h">
+      <Filter>ExchangeOMS\OMSComm</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpSender.h">
+      <Filter>ExchangeOMS\OMSComm</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

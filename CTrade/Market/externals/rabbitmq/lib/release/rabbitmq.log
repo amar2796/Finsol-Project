@@ -1,0 +1,14 @@
+﻿  Building Custom Rule E:/RabbitMQ/rabbitmq-c-0.9.0/librabbitmq/CMakeLists.txt
+  CMake does not need to re-run because E:/RabbitMQ/rabbitmq-c-0.9.0/Build/librabbitmq/CMakeFiles/generate.stamp is up-to-date.
+  amqp_framing.c
+  amqp_api.c
+  amqp_connection.c
+  amqp_mem.c
+  amqp_socket.c
+  amqp_table.c
+  amqp_url.c
+  amqp_tcp_socket.c
+  amqp_time.c
+  amqp_consumer.c
+  Generating Code...
+Release\amqp_framing.obj : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

@@ -1,0 +1,8 @@
+[2024-11-14 11:14:55.045336][INFO]*********************************************************
+[2024-11-14 11:14:55.045341][INFO]IIBX FUT ORDER Build Date: Nov 13 2024-16:55:04
+[2024-11-14 11:14:55.045342][INFO]*********************************************************
+[2024-11-14 11:14:55.047962][INFO]Connecting to IEC Lookup IP: 10.20.31.33 : 7424
+[2024-11-14 11:14:55.238540][INFO]IEC Lookup Successful
+[2024-11-14 11:14:55.238561][INFO]Generate Key and IV
+[2024-11-14 11:14:55.239530][INFO]Connecting to IEC IP : 10.20.31.33 : 7777
+[2024-11-14 11:15:16.273452][INFO]Exception Rcvd : read_some: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied [system:10057]

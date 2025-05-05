@@ -1,0 +1,12 @@
+[2024-12-02 13:43:57.414644][INFO]*********************************************************
+[2024-12-02 13:43:57.414661][INFO]IIBX FUT ORDER Build Date: Dec  2 2024-12:31:18
+[2024-12-02 13:43:57.414663][INFO]*********************************************************
+[2024-12-02 13:43:57.417656][INFO]Connecting to IEC Lookup IP: 10.20.31.33 : 7424
+[2024-12-02 13:44:18.485929][INFO]Connection failed: Host did not respond or connection timed out (Error 10060).
+[2024-12-02 13:44:23.502562][INFO]Connecting to IEC Lookup IP: 10.20.31.33 : 7424
+[2024-12-02 13:44:44.543588][INFO]Connection failed: Host did not respond or connection timed out (Error 10060).
+[2024-12-02 13:44:49.558995][INFO]Connecting to IEC Lookup IP: 10.20.31.33 : 7424
+[2024-12-02 13:45:10.603984][INFO]Connection failed: Host did not respond or connection timed out (Error 10060).
+[2024-12-02 13:45:15.622176][INFO]Connecting to IEC Lookup IP: 10.20.31.33 : 7424
+[2024-12-02 13:45:36.655428][INFO]Connection failed: Host did not respond or connection timed out (Error 10060).
+[2024-12-02 13:45:41.658302][INFO]Connecting to IEC Lookup IP: 10.20.31.33 : 7424

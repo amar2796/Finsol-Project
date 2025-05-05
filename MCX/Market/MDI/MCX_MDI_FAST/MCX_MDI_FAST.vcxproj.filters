@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MDI">
+      <UniqueIdentifier>{3f7b6e8f-7902-4b39-9b79-beefc3f42e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{db578db9-4eb2-4d56-9384-d76049525720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MktGtwy">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="RabbitMQLiveSubscription">
+      <UniqueIdentifier>{1df08bf1-3ec1-4a25-bf94-999c5e6784c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RabbitMQForTBT">
+      <UniqueIdentifier>{c1510cd8-4c2e-41e0-825e-1f8adb7459a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MCX_MDI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MDIFastTemplates_1_1.cpp">
+      <Filter>MDI</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastReceiver.cpp">
+      <Filter>MDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Broadcast_Snapshot.cpp">
+      <Filter>MktGtwy</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeProcess.cpp">
+      <Filter>MktGtwy</Filter>
+    </ClCompile>
+    <ClCompile Include="marketDataMessage.cpp">
+      <Filter>MktGtwy</Filter>
+    </ClCompile>
+    <ClCompile Include="Publisher.cpp">
+      <Filter>MktGtwy</Filter>
+    </ClCompile>
+    <ClCompile Include="Snapshot_MDI.cpp">
+      <Filter>MktGtwy</Filter>
+    </ClCompile>
+    <ClCompile Include="Nanolog.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqConsumer.cpp">
+      <Filter>RabbitMQLiveSubscription</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqInitializer.cpp">
+      <Filter>RabbitMQLiveSubscription</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqProducer.cpp">
+      <Filter>RabbitMQLiveSubscription</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqConsumerTBT.cpp">
+      <Filter>RabbitMQForTBT</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqInitializerTBT.cpp">
+      <Filter>RabbitMQForTBT</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqProducerTBT.cpp">
+      <Filter>RabbitMQForTBT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MDIFastTemplates_1_1.h">
+      <Filter>MDI</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastReceiver.h">
+      <Filter>MDI</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDetails.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentPath.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="globalThings.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeQueue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Broadcast_Snapshot.h">
+      <Filter>MktGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="InitializeProcess.h">
+      <Filter>MktGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="marketDataMessage.h">
+      <Filter>MktGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="Publisher.h">
+      <Filter>MktGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="Snaphot_MDI.h">
+      <Filter>MktGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="Nanolog.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqConsumer.h">
+      <Filter>RabbitMQLiveSubscription</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqInitializer.h">
+      <Filter>RabbitMQLiveSubscription</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqProducer.h">
+      <Filter>RabbitMQLiveSubscription</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqConsumerTBT.h">
+      <Filter>RabbitMQForTBT</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqInitializerTBT.h">
+      <Filter>RabbitMQForTBT</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqProducerTBT.h">
+      <Filter>RabbitMQForTBT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MDIFastTemplates_1_1.inl">
+      <Filter>MDI</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

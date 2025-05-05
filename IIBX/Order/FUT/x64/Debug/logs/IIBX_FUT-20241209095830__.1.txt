@@ -1,0 +1,9 @@
+[2024-12-09 09:58:30.093191][INFO]*********************************************************
+[2024-12-09 09:58:30.093389][INFO]IIBX FUT ORDER Build Date: Dec  6 2024-17:33:52
+[2024-12-09 09:58:30.093403][INFO]*********************************************************
+[2024-12-09 09:58:30.096867][INFO]Initilize complete Adapter
+[2024-12-09 09:58:30.096910][INFO]* Throttle Limit: 5
+[2024-12-09 09:58:30.096911][INFO]* Throttle Limit Window: 1
+[2024-12-09 09:58:30.099404][INFO]Initilize complete Adapter
+[2024-12-09 09:58:30.100258][INFO]Initilize complete ExchangeConnection
+[2024-12-09 09:58:30.102715][INFO]Connecting to IEC Lookup IP: 10.20.31.33 : 7424

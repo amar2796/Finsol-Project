@@ -1,0 +1,9 @@
+[2024-11-14 12:14:52.832710][INFO]*********************************************************
+[2024-11-14 12:14:52.832723][INFO]IIBX FUT ORDER Build Date: Nov 14 2024-12:12:23
+[2024-11-14 12:14:52.832725][INFO]*********************************************************
+[2024-11-14 12:14:52.841907][INFO]Connecting to IEC Lookup IP: 10.20.31.33 : 7424
+[2024-11-14 12:14:53.005189][INFO]IEC Lookup Successful
+[2024-11-14 12:14:53.005213][INFO]Generate Key and IV
+[2024-11-14 12:14:53.006250][INFO]Connecting to IEC IP : 10.20.31.33 : 7424
+[2024-11-14 12:14:53.189710][INFO]Reading more bytes from as we got incomplete message
+[2024-11-14 12:14:53.191644][INFO]Exception Rcvd : read_some: End of file [asio.misc:2]

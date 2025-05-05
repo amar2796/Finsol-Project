@@ -1,0 +1,10 @@
+﻿  fix44.cpp
+D:\Gateway\cTrader_Market\cTrader_Market\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\Gateway\cTrader_Market\packages\boost.1.77.0.0\lib\native\include\boost\bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+D:\Gateway\cTrader_Market\cTrader_Market\publisher.h(92,40): warning C4244: 'argument': conversion from '__time64_t' to 'const FIN::SIGNED_INT_32', possible loss of data
+D:\Gateway\cTrader_Market\cTrader_Market\fix44.cpp(78,24): error C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Gateway\cTrader_Market\cTrader_Market\fix44.cpp(403,25): warning C4244: '=': conversion from 'time_t' to 'int32_t', possible loss of data
+D:\Gateway\cTrader_Market\cTrader_Market\fix44.cpp(405,32): warning C4244: '=': conversion from 'double' to 'int32_t', possible loss of data
+D:\Gateway\cTrader_Market\cTrader_Market\fix44.cpp(458,33): warning C4244: '=': conversion from 'double' to 'int32_t', possible loss of data
+D:\Gateway\cTrader_Market\cTrader_Market\fix44.cpp(462,28): warning C4244: '=': conversion from 'double' to 'FIN::SIZE', possible loss of data

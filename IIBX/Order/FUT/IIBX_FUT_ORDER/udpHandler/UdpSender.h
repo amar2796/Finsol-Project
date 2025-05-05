@@ -1,0 +1,32 @@
+#pragma once
+#include <iostream>
+#include <string>
+#include <winsock.h>
+#include "../Common.h"
+//using namespace std;
+#ifndef UDP_SENDER_H
+#define UDP_SENDER_H
+
+class UDP_Sender
+{
+public:
+	UDP_Sender();
+	void init(std::string, int);
+	void initializeUdpSocket();
+	void connectToBC_server();
+	bool sendToOMS(char* msg, size_t len);
+	bool sendToOMS(const std::string& msg);
+
+	bool _enableLog = false;
+	int port;
+	std::string ip;
+	bool _isConnected = false;
+private:
+	SOCKET    SendingSocket;
+	SOCKADDR_IN  ReceiverAddr, SrcInfo;
+	WSADATA   wsaData;
+	int sentBytes = 0;
+
+};
+
+#endif

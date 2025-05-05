@@ -1,0 +1,9 @@
+Log file created at: 2021/09/30 09:06:41
+Running on machine: DESKTOP-PRD2A86
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0930 09:06:41.945039 313700 NSE_CM.cpp:79] *********************************************************
+I0930 09:06:41.947036 313700 NSE_CM.cpp:80] Binary Build Date: Sep 30 2021-09:06:25
+I0930 09:06:41.947036 313700 NSE_CM.cpp:81] *********************************************************
+I0930 09:06:41.948035 313700 publisher.cpp:121] PUBLISHER CRED : IP 172.16.0.7 PORT 9858
+I0930 09:06:41.951035 313700 multicastRcvr.cpp:22] MULTICAST CRED : IP 233.1.2.8 PORT 34074 INTERFACE 192.168.53.10
+I0930 09:06:41.960029 313700 multicastRcvr.cpp:72] SET SOCKET OPTION 10049

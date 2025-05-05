@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="IIBX">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common\logging">
+      <UniqueIdentifier>{5cc2c9b7-1d74-4f95-b9c1-478805525bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OMS Handler">
+      <UniqueIdentifier>{87a350e2-93ea-48be-8568-fdc8275d2ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OMS Handler\RabbitMq">
+      <UniqueIdentifier>{5cceeb16-f4d8-4b05-9865-de381e9981fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OMS Handler\UDP">
+      <UniqueIdentifier>{a0dff61f-e0cd-4f62-b42b-17ae82d098b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExchangeConnection.cpp">
+      <Filter>IIBX</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nanolog.cpp">
+      <Filter>Common\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitHandler\rabbitmqConsumer.cpp">
+      <Filter>OMS Handler\RabbitMq</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitHandler\rabbitmqInitializer.cpp">
+      <Filter>OMS Handler\RabbitMq</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitHandler\rabbitmqProducer.cpp">
+      <Filter>OMS Handler\RabbitMq</Filter>
+    </ClCompile>
+    <ClCompile Include="udpHandler\UdpRecevier.cpp">
+      <Filter>OMS Handler\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="udpHandler\UdpSender.cpp">
+      <Filter>OMS Handler\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="ExchangeRequestProcess.cpp">
+      <Filter>IIBX</Filter>
+    </ClCompile>
+    <ClCompile Include="IIBX_FUT_ORDER.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExchangeResponseProcess.cpp">
+      <Filter>IIBX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TransCodes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ExchangeConnection.h">
+      <Filter>IIBX</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nanolog.hpp">
+      <Filter>Common\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="IOServiceHanlder.h">
+      <Filter>IIBX</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="configReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentPath.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>OMS Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="messages.h">
+      <Filter>IIBX</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitHandler\rabbitmqConsumer.h">
+      <Filter>OMS Handler\RabbitMq</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitHandler\rabbitmqInitializer.h">
+      <Filter>OMS Handler\RabbitMq</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitHandler\rabbitmqProducer.h">
+      <Filter>OMS Handler\RabbitMq</Filter>
+    </ClInclude>
+    <ClInclude Include="udpHandler\UdpRecevier.h">
+      <Filter>OMS Handler\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="udpHandler\UdpSender.h">
+      <Filter>OMS Handler\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="omsSocketHandler.h">
+      <Filter>OMS Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="threadSafeQueue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="throttling.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ExchangeRequestProcess.h">
+      <Filter>IIBX</Filter>
+    </ClInclude>
+    <ClInclude Include="fixStringParser.h">
+      <Filter>IIBX</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ExchangeResponseProcess.h">
+      <Filter>IIBX</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderBook.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionForContract.h">
+      <Filter>IIBX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿  pch.cpp
+  connectionStatus.cpp
+d:\nse_market\src\common\connectionstatus.cpp(28): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  marketDataMessage.cpp
+d:\nse_market\src\common\marketdatamessage.cpp(273): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  multicastRcvr.cpp
+d:\nse_market\src\common\multicastrcvr.cpp(67): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  multicastSender.cpp
+d:\nse_market\src\common\multicastsender.cpp(101): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  tcpSender.cpp
+d:\nse_market\src\common\tcpsender.cpp(127): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  templaticConnection.cpp
+d:\nse_market\src\common\templaticconnection.cpp(35): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  common.cpp
+d:\nse_market\src\mdgwty\common.cpp(32): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  main.cpp
+d:\nse_market\src\mdgwty\main.cpp(20): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  NseFoAdptr.cpp
+d:\nse_market\src\mdgwty\nsefoadptr.cpp(19): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  NseFoMarketData.cpp
+d:\nse_market\src\mdgwty\nsefomarketdata.cpp(141): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  publisher.cpp
+d:\nse_market\src\mdgwty\publisher.cpp(101): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  suscribedSymbols.cpp
+d:\nse_market\src\mdgwty\suscribedsymbols.cpp(16): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  Generating Code...

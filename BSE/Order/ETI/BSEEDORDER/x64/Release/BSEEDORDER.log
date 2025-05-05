@@ -1,0 +1,23 @@
+﻿  TradeApplication.cpp
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(28,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\NanoLog\Nanolog.hpp(29,1): warning C4005: 'ATOMIC_FLAG_INIT': macro redefinition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2824,1): message : see previous definition of 'ATOMIC_FLAG_INIT'
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\throttling.h(81,27): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\throttling.h(137,11): warning C4244: 'return': conversion from 'const __int64' to 'double', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4259,17): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\ETILayouts.h(4261,18): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\HeaderFile\Fix_StringParser.h(23,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\OMS_Acceptor.h(135,44): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\OMS_Acceptor.h(146,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\OMS\OMS_Acceptor.h(254,44): warning C4101: 'e': unreferenced local variable
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\TradeApplication.cpp(141,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\TradeApplication.cpp(158,36): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\TradeApplication.cpp(170,36): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\TradeApplication.cpp(273,65): warning C4244: 'argument': conversion from 'int64_t' to 'double', possible loss of data
+D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\BSEEDORDER\Processing\TradeApplication.cpp(529,25): warning C4101: 'ex': unreferenced local variable
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 7126 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BSEEDORDER.vcxproj -> D:\SVN_Finsol\Code\Gateway\BSE\Order\BSEED_Encryption_ETILayout\x64\Release\BSEEDORDER.exe

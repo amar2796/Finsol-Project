@@ -1,0 +1,14 @@
+[SESSION]
+CONNECTHOST=172.19.13.63
+CONNECTPORT=10850
+TRADERID=34762
+BROKERID=90071
+PASSWORD=Ganesh@1
+BRANCHID=9
+
+
+[LOGGING]
+IS_LOGGING_ENABLE=1
+LOG_PATH=D:\SVN_Finsol\Code\Gateway\NSE_dropcopy\NSE_FO_dropcopy_Pradeep\x64\Release\logs
+FILE_STORE_PATH=D:\SVN_Finsol\Code\Gateway\NSE_dropcopy\NSE_FO_dropcopy_Pradeep\x64\Release\Tradefile
+#CONTRACT_DIR=C:\QT\Gateway\Dropcopy\NSEFO.txt

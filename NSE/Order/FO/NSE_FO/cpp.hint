@@ -1,0 +1,10 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define CREATE_NNF_SHORT(NAME) private: short _##NAME; public : void set##NAME( short value ) { _##NAME = htons( value ) ; } short get##NAME() const { return ntohs( _##NAME ) ; }
+#define CREATE_NNF_DOUBLE(NAME) private : DOUBLE _##NAME ; public : void set##NAME( double value ) { _##NAME.value = value ; _##NAME.longValue = _byteswap_uint64( _##NAME.longValue ) ; } double get##NAME() const { DOUBLE d ; d.longValue = _byteswap_uint64( _##NAME.longValue ) ; return d.value ; }
+#define CREATE_NNF_LONG(NAME) private: long _##NAME; public : void set##NAME( long value ) { _##NAME = htonl( value ) ; } long get##NAME() const { return ntohl( _##NAME ) ; }
+#define CREATE_NNF_STRING(NAME, LENGTH) private: char _##NAME[LENGTH]; public: void set##NAME ( const std::string &value ){ if (value.size() <= LENGTH ) value.copy ( _##NAME, value.size() );else value.copy ( _##NAME, LENGTH ) ; } const std::string get##NAME() const{ return std::string( _##NAME, LENGTH ); } const char * get##NAME(){ return _##NAME; }
+#define CREATE_NNF_LONG_LONG(NAME) private: SIGNED_LONG_LONG _##NAME; public : void set##NAME( long long value ) { _##NAME = _byteswap_uint64( value ) ; } long long get##NAME() const { return _byteswap_uint64( _##NAME ) ; }
+#define CREATE_NNF_CHAR(NAME) private: char _##NAME; public: void set##NAME ( char value ){ _##NAME = value; } char get##NAME()const{ return _##NAME; }
+#define INCLUDE_STRUCT(STRUCT, NAME) public: STRUCT _##NAME; public: void set##NAME ( const STRUCT &v ){ _##NAME = v; } STRUCT &get##NAME (){ return _##NAME ; } const STRUCT &get##NAME()const{ return _##NAME; }

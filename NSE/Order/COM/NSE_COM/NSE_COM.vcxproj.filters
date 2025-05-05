@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{8659d3e0-bede-4643-aa13-62f60e070975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Nanolog">
+      <UniqueIdentifier>{a3e723f1-89ef-4f58-9c92-20153ed116ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExchangeChannel">
+      <UniqueIdentifier>{7e9c0d5a-268a-473c-9540-cab3cfbf3a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExchangeChannel\Connection">
+      <UniqueIdentifier>{1eac1a21-136d-4514-a1c5-8b7c1614d63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OmsChannel">
+      <UniqueIdentifier>{a50f1f25-9052-461a-92ec-37b43a007d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OmsChannel\RabbitHandler">
+      <UniqueIdentifier>{d348a4c8-f9d5-4c08-814c-20307f19c9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OmsChannel\UdpHandler">
+      <UniqueIdentifier>{3b9cc339-0297-4f55-befb-bcf8569a11cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OrderGW">
+      <UniqueIdentifier>{992aafdb-1f67-4818-8292-5cfea892b57b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Nanolog.cpp">
+      <Filter>Common\Nanolog</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>ExchangeChannel\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="connectionStatus.cpp">
+      <Filter>ExchangeChannel\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="connectionTemplate.cpp">
+      <Filter>ExchangeChannel\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="ExchangeProcess.cpp">
+      <Filter>ExchangeChannel</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqConsumer.cpp">
+      <Filter>OmsChannel\RabbitHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqInitializer.cpp">
+      <Filter>OmsChannel\RabbitHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmqProducer.cpp">
+      <Filter>OmsChannel\RabbitHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>OrderGW</Filter>
+    </ClCompile>
+    <ClCompile Include="adapter.cpp">
+      <Filter>OrderGW</Filter>
+    </ClCompile>
+    <ClCompile Include="sender.cpp">
+      <Filter>OmsChannel\UdpHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpSender.cpp">
+      <Filter>OmsChannel\UdpHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="unicastReceiver.cpp">
+      <Filter>OmsChannel\UdpHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="configParameter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="abstractDataSender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fixConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OmsUDPSend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="omsUdpSocketHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="orderBook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multicastSender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="messagess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nanolog.hpp">
+      <Filter>Common\Nanolog</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="configReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentPath.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="globalDefines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ioServiceHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="messages.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stringParser.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="threadSafeQueue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="throttling.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="transcodes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>ExchangeChannel\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="connectionStatus.h">
+      <Filter>ExchangeChannel\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="connectionTemplate.h">
+      <Filter>ExchangeChannel\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>ExchangeChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="errorCodes.h">
+      <Filter>ExchangeChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="ExchangeProcess.h">
+      <Filter>ExchangeChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqConsumer.h">
+      <Filter>OmsChannel\RabbitHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqInitializer.h">
+      <Filter>OmsChannel\RabbitHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmqProducer.h">
+      <Filter>OmsChannel\RabbitHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter.h">
+      <Filter>OrderGW</Filter>
+    </ClInclude>
+    <ClInclude Include="sender.h">
+      <Filter>OmsChannel\UdpHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpSender.h">
+      <Filter>OmsChannel\UdpHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="unicastReceiver.h">
+      <Filter>OmsChannel\UdpHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="configParameter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NSE_FO.conf" />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

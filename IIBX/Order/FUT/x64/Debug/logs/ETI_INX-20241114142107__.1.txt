@@ -1,0 +1,8 @@
+[2024-11-14 14:21:07.277308][INFO]*********************************************************
+[2024-11-14 14:21:07.277322][INFO]IIBX FUT ORDER Build Date: Nov 14 2024-13:16:43
+[2024-11-14 14:21:07.277326][INFO]*********************************************************
+[2024-11-14 14:21:07.283512][INFO]Connecting to IEC Lookup IP: 10.20.31.33 : 7424
+[2024-11-14 14:21:07.505645][INFO]IEC Lookup Successful
+[2024-11-14 14:21:07.505675][INFO]Generate Key and IV
+[2024-11-14 14:21:07.506573][INFO]Connecting to IEC IP : 10.20.31.33 : 7430
+[2024-11-14 14:21:07.816843][INFO]Response: IIBX_EXCH_CTCL|1.0.1|CONN_REQ_STATUS|IEC Connection Sucessful

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MDGtwy">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="rabbit">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="common\logging">
+      <UniqueIdentifier>{bd61ef52-5e28-47c4-bfc6-ef8b6faafda8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\MDGwty\common.h">
+      <Filter>MDGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MDGwty\defines.h">
+      <Filter>MDGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MDGwty\message.h">
+      <Filter>MDGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MDGwty\NseComMarketData.h">
+      <Filter>MDGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MDGwty\publisher.h">
+      <Filter>MDGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MDGwty\transactCodes.h">
+      <Filter>MDGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\abstractDataSender.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\configReader.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\connectionStatus.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\defines.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\logger.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\marketDataMessage.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\multicastRcvr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\multicastSender.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\processMonitor.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\tcpRcvr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\tcpSender.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\templaticConnection.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\threadSafeQueue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\throttling.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\updatedTcpRcvr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\constants.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MDGwty\SymbolProcess.h">
+      <Filter>MDGtwy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rabbit\rabbitmqConsumer.h">
+      <Filter>rabbit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rabbit\rabbitmqInitializer.h">
+      <Filter>rabbit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\logging\Nanolog.hpp">
+      <Filter>common\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rabbit\rabbitmqConsumerTBT.h">
+      <Filter>rabbit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rabbit\rabbitmqInitializerTBT.h">
+      <Filter>rabbit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rabbit\rabbitmqProducerTBT.h">
+      <Filter>rabbit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\MDGwty\common.cpp">
+      <Filter>MDGtwy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MDGwty\NseComMarketData.cpp">
+      <Filter>MDGtwy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MDGwty\publisher.cpp">
+      <Filter>MDGtwy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\connectionStatus.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\marketDataMessage.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\multicastRcvr.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\multicastSender.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\tcpSender.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\templaticConnection.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MDGwty\NSE_COM.cpp">
+      <Filter>MDGtwy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MDGwty\SymbolProcess.cpp">
+      <Filter>MDGtwy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rabbit\rabbitmqConsumer.cpp">
+      <Filter>rabbit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rabbit\rabbitmqInitializer.cpp">
+      <Filter>rabbit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\logging\Nanolog.cpp">
+      <Filter>common\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rabbit\rabbitmqConsumerTBT.cpp">
+      <Filter>rabbit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rabbit\rabbitmqInitializerTBT.cpp">
+      <Filter>rabbit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rabbit\rabbitmqProducerTBT.cpp">
+      <Filter>rabbit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
